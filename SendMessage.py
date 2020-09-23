@@ -4,7 +4,7 @@ import schedule
 from datetime import datetime
 
 # 카톡창 이름(열려있는 상태, 최소화x, 창뒤에 숨어있는 비활성화 상태 가능)
-kakao_opentalk_name = "블록체인정보"
+kakao_opentalk_name = "카톡채팅방이름"
 
 # 채팅방에 메시지 전송
 def kakao_sendtext(chatroom_name, text):
